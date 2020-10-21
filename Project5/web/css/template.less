@@ -1,0 +1,176 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'YouYuan';
+  color: #36879C;
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+// 图标字体
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+//设置背景图
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../image/login-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  margin: 0 auto;
+  overflow: hidden;
+
+  .top-bar{
+    display: flex;
+    width:100%;
+    height: 50px;
+    background-color: rgba(170, 200, 238, .99);
+    margin: 0 auto;
+    justify-content: space-between;
+    // 分割线
+    .line{
+      margin: 0 auto;
+      width: 80%;
+      background-color: #36879C;
+      border:0.5px solid  #36879C;
+    }
+    // 左边
+    .left{
+      position: relative;
+      display: flex;
+      width: 500px;
+      height: 100%;
+      line-height: 50px;
+      justify-content: space-between;
+     .function-list{
+  
+        .iconfont{
+         margin-left: 50px;
+         font-size:35px;
+        }
+        ul{
+          position: absolute;
+          left: 0;
+          top: 50px;
+          width: 150px;
+          overflow: hidden;
+          height: 0;
+          background-color: #E7EAED;
+          font-size: 12px;
+          transition: .3s;
+          li{
+           width: 100%;
+           text-align: center;
+         
+          }
+          li:hover a{
+            color: black;
+          }
+          .line{
+            width: 70%;
+          }
+        }
+        &:hover ul{
+          // height: 100vh;
+          height: 300px;
+        }
+  
+      }
+    }
+    // 中间
+    .mid{
+      display: flex;
+      width: 600px;
+      height: 100%;  
+    }
+  
+    .right{
+      display: flex;
+      width: 400px;
+      height: 100%;
+      line-height: 50px;
+      align-items: center;
+      justify-content: space-evenly;
+      
+      .student-logo .icon{
+        margin-top: 10px;
+        font-size:50px;
+      }
+      a .icon-tuichu{
+        display: block;
+        height: 50px;
+        color: rgb(236, 230, 230);
+        font-size: 35px;
+        &:hover{
+          color: black;
+        }
+  
+      }
+      .people{
+        position: relative;
+        width: 100px;
+        text-align: center;
+        font-size:35px ;
+        
+        color: #fff;
+       .person{
+        width: 100px;
+        text-align: center;
+        font-size:35px ;
+       }
+        .student-info{
+          display:block;
+          position: absolute;
+          width: 100px;
+          height: 0;
+          overflow: hidden;
+          top:50;
+          font-size: 10px;
+          transition: .3s;
+          
+        }
+        .triangle{
+          position: absolute;
+          display: none;
+          border: 5px solid #E7EAED;
+          border-top-color: transparent;
+          border-left-color:transparent;
+          border-right-color: transparent;
+          top: 40px;
+          left: 45px;
+        }
+        &:hover .student-info{
+          height:200px;
+          background-color: #E7EAED;
+         
+        }
+        &:hover .triangle{
+          display: block;
+        }
+        li:hover a{
+          color: black;
+        }
+      }
+      
+    }
+  }
+
+
+
+  .cqe{
+    width: 600px;
+    margin: 50px auto;
+    img{
+      width: 600px;
+      
+    }
+  }
+
+  
+}

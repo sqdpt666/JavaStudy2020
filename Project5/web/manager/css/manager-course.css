@@ -1,0 +1,62 @@
+.content {
+  width: 60vw;
+  height: 700px;
+  margin: auto;
+  background-color: rgba(243, 245, 243, 0.96);
+}
+.content div {
+  width: 800px;
+  margin: 0 auto;
+}
+.content .content-top {
+  height: 500px;
+}
+.content .content-top h3 {
+  height: 100px;
+  font-size: 35px;
+  line-height: 100px;
+  margin-left: -50px;
+}
+.content .content-top .choice {
+  width: 600px;
+  margin-left: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+.content .content-top .choice select {
+  height: 25px;
+  border-radius: 5px;
+  border-color: turquoise;
+}
+.content .content-top .choice ul {
+  display: flex;
+  justify-content: space-around;
+}
+.content .content-top .choice .bttn-unite {
+  font-size: 12px;
+}
+.content .content-top table {
+  width: 800px;
+  height: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 5px solid #1D89FF;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.content .content-top table td {
+  border: 1px solid #1D89FF;
+}
+.content .content-top h3 {
+  margin-left: 50px;
+}
+.content .content-top .change {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.content .content-top .change button {
+  font-size: 12px;
+  outline: none;
+}

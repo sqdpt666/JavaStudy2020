@@ -1,0 +1,44 @@
+{
+  "id": "2101321",
+  "name": "person",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1319970",
+      "name": "人",
+      "font_class": "ren2",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "3877058",
+      "name": "人",
+      "font_class": "ren",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "8229473",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "12582557",
+      "name": "人",
+      "font_class": "ren1",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "17374174",
+      "name": "1",
+      "font_class": "1",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    }
+  ]
+}
